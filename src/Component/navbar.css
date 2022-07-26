@@ -1,0 +1,28 @@
+.navbarContainer {
+    background-color: var(--lightblue-color);
+    padding: 1.5rem;
+    border-bottom-right-radius: 2rem;
+    box-shadow: 2px 5px 12px var(--light-gray-color);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.todoTitle,
+.githubLink {
+    color: var(--white-color);
+    font-size: 2rem;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:375px) {
+    .navbarContainer {
+        width: 27rem;
+    }
+
+}

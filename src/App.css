@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-blue-color: #1e40af;
+  --white-color: #eff6ff;
+  --lightblue-color: #3b82f6;
+  --gray-color: #94a3b8;
+  --light-gray-color: #cbd5e1;
+}
+
+.title {
+  padding-left: 3rem;
+}
+
+.allTodosContainer {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid var(--primary-blue-color);
+}
+
+
+button{
+  cursor: pointer;
+}
